@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+	<ModulePrefs title="Live Subbing">
+		<Require feature="rpc"/>
+		<Require feature="views"/>
+	</ModulePrefs>
+	<Content type="html">
+		<![CDATA[
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+			<script src="//talkgadget.google.com/hangouts/api/hangout.js?v=1.2"></script> 
+			<script src="https://apis.google.com/js/client.js?onload=CALLBACK"></script>
+			<!--[if lt IE 9]>
+				<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+			<script src="[YOUR_DOMAIN_HERE]/jstorage.js"></script>
+			<script src="[YOUR_DOMAIN_HERE]/jquery.simplemodal.js"></script>
+			<link rel="stylesheet" type="text/css" href="[YOUR_DOMAIN_HERE]/style.css" />
+			<script src="[YOUR_DOMAIN_HERE]/livesubbing.js"></script>
+			<div id="container_wrapper">
+				<div id="container_settings"></div>
+				<div id="container_log"></div>
+			</div>
+		]]>
+	</Content>
+</Module>
